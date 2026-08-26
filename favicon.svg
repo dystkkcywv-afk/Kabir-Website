@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Kabir Yadav KY 01 favicon</title>
+  <desc id="desc">A dark green italic KY monogram with a small red 01 on a warm cream rounded square.</desc>
+  <rect width="512" height="512" rx="112" fill="#f2f0ea"/>
+  <g transform="translate(54 105) skewX(-10)">
+    <text x="0" y="220" fill="#17211c" font-family="Arial, Helvetica, sans-serif" font-size="250" font-style="italic" font-weight="900" letter-spacing="-24">KY</text>
+  </g>
+  <text x="352" y="344" fill="#bd4933" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900" letter-spacing="-4">01</text>
+</svg>

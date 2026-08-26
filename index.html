@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Kabir Yadav — mechanical engineering, software and systems portfolio.">
+  <title>Kabir Yadav — Engineering Workbench</title>
+  <link rel="icon" href="favicon.svg">
+  <meta property="og:title" content="Kabir Yadav — Engineering Workbench">
+  <meta property="og:description" content="Mechanical engineering, software, CAD and systems projects from Kabir Yadav.">
+  <meta property="og:image" content="og-engineering-v2.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-head">
+    <a class="monogram magnetic" href="#top" aria-label="Back to top">KY<i>01</i></a>
+    <nav class="filters" aria-label="Filter portfolio">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="about">About</button>
+      <button class="filter" data-filter="work">Work</button>
+      <button class="filter" data-filter="life">Off field</button>
+    </nav>
+    <button class="theme-toggle magnetic" aria-pressed="false" aria-label="Switch to dark mode"><span>◐</span> Dark mode</button>
+  </header>
+
+  <main id="top" class="bento" aria-live="polite">
+    <article class="card intro-card span-6 row-2" data-group="about" data-order="1">
+      <div class="intro-mark"><span>KY</span><i>MECH / CODE</i></div>
+      <div><p class="eyebrow">HEY, I’M KABIR 👋</p><h1>A mechanical engineer who wants to make <em>software move things.</em></h1><p class="body-copy">UNSW student based in Sydney, combining code, CAD and hands-on problem solving to build useful systems.</p></div>
+      <button class="corner-action" data-panel="about" aria-label="Open profile">↗</button>
+    </article>
+
+    <a class="card mini-card resume span-3" data-group="about" data-order="2" href="Kabir-Yadav-Resume.pdf" target="_blank">
+      <span class="file-icon">PDF</span><div><p>Résumé</p><small>Experience · Skills · Education</small></div><b>↗</b>
+    </a>
+    <a class="card mini-card linkedin span-3" data-group="about" data-order="3" href="https://www.linkedin.com/in/kabiryadav/" target="_blank" rel="noreferrer">
+      <span class="in-icon">in</span><div><p>LinkedIn</p><small>Let’s connect</small></div><b>↗</b>
+    </a>
+
+    <article class="card status-card span-3" data-group="about" data-order="4">
+      <span class="pulse"></span><p>OPEN TO INTERNSHIPS</p><strong>2026</strong><small>Sydney · Australian citizen</small>
+    </article>
+    <article class="card principle-card span-3" data-group="about" data-order="5">
+      <span>“</span><p>Build to understand.<br><em>Test to improve.</em></p><small>MY ENGINEERING PRINCIPLE</small>
+    </article>
+
+    <button class="card project-card snake span-6 row-2" data-group="work" data-order="6" data-panel="snake">
+      <div class="project-meta"><span>01 / GAME SYSTEMS</span><span>C · 1,332 LINES</span></div>
+      <div class="snake-board" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><span class="snake-path">● ● ● ●</span><span class="apple">●</span></div>
+      <div class="project-bottom"><div><h2>Snake Game Engine</h2><p>Movement, portals, collisions and evolving game state.</p></div><span class="open-pill">Case study ↗</span></div>
+    </button>
+
+    <button class="card project-card runtime span-6 row-2" data-group="work" data-order="7" data-panel="runtime">
+      <div class="project-meta"><span>02 / SYSTEMS SOFTWARE</span><span>C · POSIX · 567 LINES</span></div>
+      <div class="terminal" aria-hidden="true"><div><i></i><i></i><i></i><small>stdio.runtime</small></div><code><span>01</span> stream = open(path, flags);<br><span>02</span> state.eof = false;<br><span>03</span> decode_utf8(stream);<br><span>04</span> fork(); execve(path);<b>_</b></code></div>
+      <div class="project-bottom"><div><h2>Standard I/O Runtime</h2><p>Rebuilding familiar streams from system calls.</p></div><span class="open-pill">Case study ↗</span></div>
+    </button>
+
+    <button class="card project-card team span-4 row-2" data-group="work" data-order="8" data-panel="team">
+      <div class="project-meta"><span>03 / TEAM EXPOSURE</span><span>3 WEEKS</span></div>
+      <div class="branch-art" aria-hidden="true"><span></span><i></i><i></i><i></i><b>Git</b></div>
+      <div class="project-bottom"><div><h2>Team Simulation</h2><p>Introductory JavaScript, tests and shared Git workflows.</p></div><span class="open-pill">Open ↗</span></div>
+    </button>
+
+    <article class="card future-card span-5 row-2" data-group="work" data-order="9">
+      <div class="project-meta"><span>04 / NEXT BUILD</span><span>CAD + CODE</span></div>
+      <div class="cad-part" aria-hidden="true"><span class="axis x"></span><span class="axis y"></span><i></i><i></i><b>KY</b><small>Ø 2026</small></div>
+      <div class="project-bottom"><div><h2>Physical system,<br>digitally controlled.</h2><p>The next step in connecting both sides of my engineering interests.</p></div></div>
+    </article>
+
+    <article class="card toolkit span-3 row-2" data-group="work" data-order="10">
+      <p class="eyebrow">CURRENT TOOLKIT</p><div class="tool-list"><span>C</span><span>C++</span><span>Python</span><span>Java</span><span>Git</span><span>Linux</span><span>SolidWorks</span><span>Fusion CAM</span></div><small>Learning through use, not collecting logos.</small>
+    </article>
+
+    <article class="card nocode span-5 row-2" data-group="life" data-order="11">
+      <div class="society-orbit" aria-hidden="true"><span>AI</span><span>AUTOMATE</span><span>BUILD</span><b>NC</b></div>
+      <div><p class="eyebrow">NO CODE SOCIETY · UNSW</p><h2>Marketing Director</h2><p>Supporting workshops, sharing practical tools and developing partnerships for student events.</p></div>
+    </article>
+
+    <article class="card cricket-card span-4 row-2" data-group="life" data-order="12">
+      <img src="profile-cricket.jpg" alt="Kabir representing North Sydney in cricket">
+      <div class="photo-shade"></div><div class="photo-copy"><p class="eyebrow">OFF THE SCREEN</p><h2>North Sydney<br>Cricketer</h2><span>Discipline · Teamwork · Improvement</span></div>
+    </article>
+
+    <button class="card dog-card span-3 row-2" data-group="life" data-order="13" data-panel="gallery">
+      <img src="profile-kabir-dog.jpg" alt="Kabir with his dog"><div class="photo-shade"></div><div class="photo-copy"><p class="eyebrow">THE OTHER TEAMMATE</p><h2>Life outside uni</h2><span>Open gallery ↗</span></div>
+    </button>
+
+    <article class="card closing span-12" data-group="about" data-order="14">
+      <p>Have a problem worth building around?</p><a class="magnetic" href="mailto:kabir_y@icloud.com">Let’s talk <span>↗</span></a><small>SYDNEY, AUSTRALIA · 2026</small>
+    </article>
+  </main>
+
+  <button class="to-top magnetic" aria-label="Back to top">↑</button>
+
+  <dialog class="case-modal" id="case-modal">
+    <div class="modal-shell">
+      <header><span id="modal-index">PROJECT FIELD NOTE</span><button class="modal-close" aria-label="Close project">×</button></header>
+      <div class="modal-hero"><p id="modal-kind"></p><h2 id="modal-title"></h2><p id="modal-summary"></p></div>
+      <div class="modal-visual" aria-hidden="true"><div class="visual-window"><header><i></i><i></i><i></i><span>SYSTEM VIEW / SELECTED PROJECT</span></header><div class="visual-grid"><span>INPUT</span><b>PROCESS</b><span>STATE</span><b>OUTPUT</b><i></i><i></i><i></i></div></div><p>ENGINEERING STUDY · FUNCTION BEFORE DECORATION</p></div>
+      <div class="modal-facts"><div><small>SCOPE</small><p id="modal-scope"></p></div><div><small>BUILT WITH</small><p id="modal-tools"></p></div><div><small>NEXT ITERATION</small><p id="modal-next"></p></div></div>
+      <section class="modal-story"><div><p class="eyebrow">WHAT I BUILT</p><p id="modal-built"></p></div><div><p class="eyebrow">WHAT I LEARNED</p><p id="modal-learned"></p></div></section>
+      <div class="modal-code"><div><i></i><i></i><i></i><span>selected_source.c</span></div><pre id="modal-code"></pre></div>
+      <div class="modal-source-wrap"><a id="modal-source" target="_blank">View complete source ↗</a></div>
+      <footer><button class="modal-close text-close">Close field note</button></footer>
+    </div>
+  </dialog>
+
+  <dialog class="profile-modal" id="profile-modal">
+    <button class="profile-close" aria-label="Close profile">×</button>
+    <section class="profile-intro"><p class="eyebrow">PLAYER PROFILE / KABIR YADAV</p><h2>Curious by nature.<br><em>Competitive by habit.</em></h2><p>Hey, I’m Kabir, a second-year Mechanical Engineering student at UNSW. I enjoy figuring out how things work and finding practical ways to make them better—through code, CAD or a physical build.</p></section>
+    <section class="profile-grid"><div><span>UNIVERSITY</span><p>Mechanical Engineering at UNSW, with an earlier year exploring computational Data Science.</p></div><div><span>SOCIETY</span><p>Marketing Director at No Code Society, supporting workshops and external partnerships.</p></div><div><span>CRICKET</span><p>Representing North Sydney and learning to improve through every innings.</p></div></section>
+  </dialog>
+
+  <dialog class="gallery-modal" id="gallery-modal"><header><p>LIFE OUTSIDE THE WORKBENCH</p><button class="gallery-close" aria-label="Close gallery">×</button></header><div class="gallery-grid"><img src="profile-kabir-dog.jpg" alt="Kabir with his dog"><img src="profile-friends-cricket.jpg" alt="Kabir with friends at the cricket"><img src="profile-dog-work.jpg" alt="Kabir's dog beside a laptop"><img src="profile-friends-event.jpg" alt="Kabir with a friend at an event"></div></dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
